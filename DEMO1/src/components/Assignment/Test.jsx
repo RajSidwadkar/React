@@ -15,6 +15,7 @@ export default function Test() {
             ...prevData,
             [name]: value
         }));
+    
     }
     return (
         <>
