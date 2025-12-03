@@ -1,6 +1,6 @@
 import React from "react";
 import UseState_Hook from "./components/UseState/UseState_Hook";
-import App1 from "./Routing/App1";
+// import App1 from "./Routing/App1";
 // import Ex1 from "./UseMemo Hook/Ex1";
 // import Task from "./components/UseState/task";
 // import EX2 from "./components/UseState/ConditionalRendering/EX2";
@@ -16,6 +16,7 @@ import App1 from "./Routing/App1";
 // import App2 from "./Custom Hook/App2.jsx";
 // import CHA from "./components/Context/Ex4/CHA";
 // import CHB from "./components/Context/Ex6/CHB";
+import Styled from "./components/Styled Components/Styled";
 
 function App() {
   // let greeting;
@@ -39,9 +40,7 @@ function App() {
       {/* <App2 /> */}
       {/* {<CHB/>} */}
       {/* <Ex1/> */}
-      {/* <LazyLoading/> */}
-      <App1 />
-      
+      <Styled />
     </>
   );
 }
