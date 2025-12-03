@@ -17,7 +17,8 @@ import UseState_Hook from "./components/UseState/UseState_Hook";
 // import CHA from "./components/Context/Ex4/CHA";
 // import CHB from "./components/Context/Ex6/CHB";
 import Styled from "./components/Styled Components/Styled";
-
+import FetchAPI from "./components/Api Fetching/FetchAPI";
+import Axios from "./components/Api Fetching/Axios";
 function App() {
   // let greeting;
   // const isMorning = true;
@@ -40,7 +41,9 @@ function App() {
       {/* <App2 /> */}
       {/* {<CHB/>} */}
       {/* <Ex1/> */}
-      <Styled />
+      {/* <Styled /> */}
+      {/* {<FetchAPI />} */}
+      {<Axios />}
     </>
   );
 }
