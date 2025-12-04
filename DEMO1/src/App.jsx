@@ -19,6 +19,7 @@ import UseState_Hook from "./components/UseState/UseState_Hook";
 import Styled from "./components/Styled Components/Styled";
 import FetchAPI from "./components/Api Fetching/FetchAPI";
 import Axios from "./components/Api Fetching/Axios";
+import Loading_State from "./components/Api Fetching/Loading_State";
 function App() {
   // let greeting;
   // const isMorning = true;
@@ -43,7 +44,8 @@ function App() {
       {/* <Ex1/> */}
       {/* <Styled /> */}
       {/* {<FetchAPI />} */}
-      {<Axios />}
+      {/* {<Axios />} */}
+      {<Loading_State />}
     </>
   );
 }
