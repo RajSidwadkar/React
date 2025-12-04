@@ -20,6 +20,7 @@ import Styled from "./components/Styled Components/Styled";
 import FetchAPI from "./components/Api Fetching/FetchAPI";
 import Axios from "./components/Api Fetching/Axios";
 import Loading_State from "./components/Api Fetching/Loading_State";
+import CRUD_Operations from "./components/Api Fetching/CRUD_Operations";
 function App() {
   // let greeting;
   // const isMorning = true;
@@ -45,7 +46,8 @@ function App() {
       {/* <Styled /> */}
       {/* {<FetchAPI />} */}
       {/* {<Axios />} */}
-      {<Loading_State />}
+      {/* {<Loading_State />} */}
+      {<CRUD_Operations />}
     </>
   );
 }
