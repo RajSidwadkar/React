@@ -8,10 +8,9 @@ const App = () => {
   const [weather, setWeather] = useState(null)
   async function handleClick() 
   {
-    const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=f193ca757c8a07c8bf1bd179bff79ca2
-`)
-    setWeather(res.data)
+    const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${'f193ca757c8a07c8bf1bd179bff79ca2'}`)
     console.log(res.data)
+    setWeather(res.data)
   }
   return (
     <div>
