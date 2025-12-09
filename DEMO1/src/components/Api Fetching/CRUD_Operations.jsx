@@ -3,6 +3,7 @@ import axios from 'axios'
 
 const CRUD_Operations = () => {
     const [users, setUsers] = useState([])
+    const [name, setName] = useState('')
 
     async function fetchUsers() {
         const res = await axios.get('https://jsonplaceholder.typicode.com/users')

@@ -1,6 +1,7 @@
 import React from "react";
 import UseState_Hook from "./components/UseState/UseState_Hook";
 // import App1 from "./Routing/App1";
+import './App.css'
 // import Ex1 from "./UseMemo Hook/Ex1";
 // import Task from "./components/UseState/task";
 // import EX2 from "./components/UseState/ConditionalRendering/EX2";
@@ -21,6 +22,7 @@ import FetchAPI from "./components/Api Fetching/FetchAPI";
 import Axios from "./components/Api Fetching/Axios";
 import Loading_State from "./components/Api Fetching/Loading_State";
 import CRUD_Operations from "./components/Api Fetching/CRUD_Operations";
+import Pagination from "./components/Api Fetching/Pagination";
 function App() {
   // let greeting;
   // const isMorning = true;
@@ -47,7 +49,8 @@ function App() {
       {/* {<FetchAPI />} */}
       {/* {<Axios />} */}
       {/* {<Loading_State />} */}
-      {<CRUD_Operations />}
+      {/* {<CRUD_Operations />} */}
+      {<Pagination />}
     </>
   );
 }
