@@ -25,8 +25,6 @@ const Pagination = () => {
                 Items per page: <span> {itemsPerPage} </span>
 
                 <select
-                    name="pages"
-                    id="pages"
                     value={itemsPerPage}  
                     onChange={(e) => setItemsPerPage((e.target.value))} 
                 >
