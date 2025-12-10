@@ -24,6 +24,7 @@ import Loading_State from "./components/Api Fetching/Loading_State";
 import CRUD_Operations from "./components/Api Fetching/CRUD_Operations";
 import Pagination from "./components/Api Fetching/Pagination";
 import FormValidation from "./components/Form Validation/FormValidation";
+import { Counter } from "./components/Redux/Counter";
 function App() {
   // let greeting;
   // const isMorning = true;
@@ -52,7 +53,8 @@ function App() {
       {/* {<Loading_State />} */}
       {/* {<CRUD_Operations />} */}
       {/* {<Pagination />} */}
-      {<FormValidation/>}
+      {/* {<FormValidation/>} */}
+      <Counter />
     </>
   );
 }
